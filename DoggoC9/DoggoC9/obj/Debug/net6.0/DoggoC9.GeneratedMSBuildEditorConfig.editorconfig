@@ -9,47 +9,63 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DoggoC9
 build_property.RootNamespace = DoggoC9
-build_property.ProjectDir = C:\Users\tspur\workspace\c9\Backend\DoggoC9\DoggoC9\
+build_property.ProjectDir = C:\Users\geish\workspace\C9\back-end\DogGo\DoggoC9\DoggoC9\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\tspur\workspace\c9\Backend\DoggoC9\DoggoC9
+build_property.MSBuildProjectDirectory = C:\Users\geish\workspace\C9\back-end\DogGo\DoggoC9\DoggoC9
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Home/Index.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Home/Privacy.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Shared/Error.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Owners/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Owners/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Owners/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Owners/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3duZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Walkers/Details.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Walkers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Fsa2Vyc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Walkers/Index.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Walkers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2Fsa2Vyc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/_ViewImports.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/_ViewStart.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/tspur/workspace/c9/Backend/DoggoC9/DoggoC9/Views/Shared/_Layout.cshtml]
+[C:/Users/geish/workspace/C9/back-end/DogGo/DoggoC9/DoggoC9/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ok253uyd0l
