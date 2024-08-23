@@ -513,3 +513,4 @@ C:\Users\geish\workspace\C9\back-end\DogGo\DoggoC9\DoggoC9\obj\Debug\net6.0\refi
 C:\Users\geish\workspace\C9\back-end\DogGo\DoggoC9\DoggoC9\obj\Debug\net6.0\DoggoC9.pdb
 C:\Users\geish\workspace\C9\back-end\DogGo\DoggoC9\DoggoC9\obj\Debug\net6.0\DoggoC9.genruntimeconfig.cache
 C:\Users\geish\workspace\C9\back-end\DogGo\DoggoC9\DoggoC9\obj\Debug\net6.0\ref\DoggoC9.dll
+C:\Users\tspur\workspace\c9\Backend\DoggoC9\DoggoC9\obj\Debug\net6.0\DoggoC9.sourcelink.json

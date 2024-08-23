@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\geish\\workspace\\C9\\back-end\\DogGo\\DoggoC9\\DoggoC9\\DoggoC9.csproj": {}
+    "C:\\Users\\tspur\\workspace\\c9\\Backend\\DoggoC9\\DoggoC9\\DoggoC9.csproj": {}
   },
   "projects": {
-    "C:\\Users\\geish\\workspace\\C9\\back-end\\DogGo\\DoggoC9\\DoggoC9\\DoggoC9.csproj": {
+    "C:\\Users\\tspur\\workspace\\c9\\Backend\\DoggoC9\\DoggoC9\\DoggoC9.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geish\\workspace\\C9\\back-end\\DogGo\\DoggoC9\\DoggoC9\\DoggoC9.csproj",
+        "projectUniqueName": "C:\\Users\\tspur\\workspace\\c9\\Backend\\DoggoC9\\DoggoC9\\DoggoC9.csproj",
         "projectName": "DoggoC9",
-        "projectPath": "C:\\Users\\geish\\workspace\\C9\\back-end\\DogGo\\DoggoC9\\DoggoC9\\DoggoC9.csproj",
-        "packagesPath": "C:\\Users\\geish\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geish\\workspace\\C9\\back-end\\DogGo\\DoggoC9\\DoggoC9\\obj\\",
+        "projectPath": "C:\\Users\\tspur\\workspace\\c9\\Backend\\DoggoC9\\DoggoC9\\DoggoC9.csproj",
+        "packagesPath": "C:\\Users\\tspur\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tspur\\workspace\\c9\\Backend\\DoggoC9\\DoggoC9\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\geish\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\tspur\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
