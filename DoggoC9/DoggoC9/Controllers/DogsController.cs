@@ -1,74 +1,73 @@
 ﻿using DoggoC9.Models;
 using DoggoC9.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace DoggoC9.Controllers
 {
-
-    public class WalkersController : Controller
+    public class DogsController : Controller
     {
 
-        private readonly IWalkerRepository _walkerRepo;
+        private readonly IDogRepository _dogRepo;
 
-        // ASP.NET will give us an instance of our Walker Repository. This is called "Dependency Injection"
-        public WalkersController(IWalkerRepository walkerRepository)
+        // ASP.NET will give us an instance of our Dogs Repository. This is called "Dependency Injection"
+        public DogsController(IDogRepository dogRepository)
         {
-            _walkerRepo = walkerRepository;
+            _dogRepo = dogRepository;
         }
-
-
-        // GET: WalkersController
-        // GET: Walkers
+        // GET: DogsController
+        [Authorize]
         public ActionResult Index()
         {
-            List<Walker> walkers = _walkerRepo.GetAllWalkers();
+            int ownerId = GetCurrentUserId();
 
-            return View(walkers);
+            List<Dog> dogs = _dogRepo.GetDogsByOwnerId(ownerId);
+
+            return View(dogs);
         }
 
-        // GET: WalkersController/Details/5
+        // GET: DogsController/Details/5
         public ActionResult Details(int id)
         {
-            Walker walker = _walkerRepo.GetWalkerById(id);
-
-            if (walker == null)
-            {
-                return NotFound();
-            }
-
-            return View(walker);
+            return View();
         }
 
-        // GET: WalkersController/Create
+        // GET: DogsController/Create
+        [Authorize]
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: WalkersController/Create
+        // POST: DogsController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(Dog dog)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                // update the dogs OwnerId to the current user's Id
+                dog.OwnerId = GetCurrentUserId();
+
+                _dogRepo.AddDog(dog);
+
+                return RedirectToAction("Index");
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                return View(dog);
             }
         }
 
-        // GET: WalkersController/Edit/5
+        // GET: DogsController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: WalkersController/Edit/5
+        // POST: DogsController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -83,13 +82,13 @@ namespace DoggoC9.Controllers
             }
         }
 
-        // GET: WalkersController/Delete/5
+        // GET: DogsController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: WalkersController/Delete/5
+        // POST: DogsController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

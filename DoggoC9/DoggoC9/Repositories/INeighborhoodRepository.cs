@@ -3,12 +3,10 @@ using Microsoft.Data.SqlClient;
 
 namespace DoggoC9.Repositories
 {
-    public interface IDogRepository
+    public interface INeighborhoodRepository
     {
         SqlConnection Connection { get; }
 
-        List<Dog> GetDogsByOwnerId(int ownerId);
-
-        void AddDog(Dog dog); 
+        List<Neighborhood> GetAll();
     }
 }
